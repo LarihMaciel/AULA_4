@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello JavaScript</h1>
+    <script>
+        //Criar Variavel sem valor
+        let nome ;
+
+        //Criar Variavel e atribuir valor
+        let idade = 19;
+        const pih = 3.1415; //real ou float = padrao americano
+
+        //alert("Hello Word");
+        //confirm("Está gostando de JS");
+        //nome = prompt("Qual seu nome?");
+        //idade = prompt("Qual sua idade?");
+        //document.write("Olá, " + nome + " Sua idade é: " + idade + "<br>");
+        //document.write(`Olá ${nome} Sua idade é ${idade}<br>`);
+
+        //let nr1 = Number (prompt("Informe o primeiro número: ") );
+        //let nr2 = Number (prompt("Informe o segundo número: "));
+
+        //let soma;
+        //soma = nr1 + nr2;
+
+        //document.write(` O ${nr1} + ${nr2} = ${soma} <br>`);
+
+        //Algoritmo que receba 3 notas (nr1, nr2, nr3),
+        //calcule a média e apresnete o resultado.
+
+        let nt1 = Number (prompt("Informe o primeiro número: ") );
+        let nt2 = Number (prompt("Informe o segundo número: "));
+        let nt3 = Number (prompt("Informe o terceiro número: ") );
+
+        let media;
+        media = (nt1 + nt2 + nt3) / 3;
+        media = media.toFixed(2);
+        
+
+        document.write(` A media é = ${media} `);
+       
+
+    </script>
+</body>
+</html>
